@@ -1,0 +1,1 @@
+*[Example]: This is what an abbreviation line looks like for this file.

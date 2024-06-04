@@ -1,0 +1,115 @@
+# Project information
+site_name: The MondoRepo
+site_url: https://abramjkline.github.io/monodomonorepo
+site_author: Abe Kline
+site_description: >-
+  This project is a template for hosting projects and documentation.
+
+# Repository
+repo_name: abramjkline/mondmonorepo
+repo_url: https://github.com/abramjkline/mondmonorepo
+
+# Copyright
+copyright: Copyright &copy; 2024 Your Name
+
+# Configuration
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+    - content.code.annotate
+    - content.tabs.link
+  font:
+    - code: Ubuntu Mono
+  icon:
+    - admonition:
+      note: fontawesome/solid/circle-info
+      abstract: fontawesome/solid/circle-node
+      info: fontawesome/solid/circle-info
+      tip: fontawesome/solid/lightbulb
+      success: fontawesome/solid/check
+      question: fontawesome/solid/circle-question
+      warning: fontawesome/solid/triangle-exclamation
+      failure: fontawesome/solid/bomb
+      danger: fontawesome/solid/skull-crossbones
+      bug: fontawesome/solid/robot
+      example: octicons/code-16
+      quote: fontawesome/solid/quote-left
+  palette:
+    scheme: default
+    primary: indigo
+    accent: indigo
+    toggle:
+      icon: material/toggle-switch
+      name: Switch to dark mode
+    scheme: slate 
+    primary: blue
+    accent: blue
+    toggle:
+      icon: material/toggle-switch-off-outline
+      name: Switch to light mode
+
+extra_javascript:
+  - https://unpkg.com/mermaid@8.14.0/dist/mermaid.min.js
+  - https://cdnjs.cloudflare.com/ajax/libs/tablesort/5.3.0/tablesort.min.js
+
+# Plugins
+plugins:
+  - monorepo
+  - search
+  - glightbox:
+      touchNavigation: True
+      loop: False
+      slide_effect: slide
+      width: 100%
+      height: auto
+      zoomable: True
+      draggable: True
+      auto_caption: False
+      caption_position: bottom
+
+# Customization
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/abramjkline
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/in/abekline
+  generator: false
+
+# Extensions
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.snippets:
+      auto_append:
+        - includes/abbreviations.md
+  - pymdownx.tabbed:
+      alternate_style: True
+  - pymdownx.details
+  - pymdownx.caret
+  - pymdownx.tilde
+  - pymdownx.highlight
+
+# Navigation
+nav:
+  - Home: index.md
