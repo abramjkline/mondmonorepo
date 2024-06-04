@@ -18,7 +18,6 @@ theme:
   features:
     - navigation.tabs
     - navigation.sections
-    - toc.integrate
     - content.code.annotate
     - content.tabs.link
   font:
