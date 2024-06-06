@@ -1,0 +1,5 @@
+/.vscode/
+/site/
+/venv/
+node_modules/
+.env
