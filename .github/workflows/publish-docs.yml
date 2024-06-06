@@ -1,0 +1,25 @@
+name: 'Publish Docs for Mondo Repo'
+on: 
+  push: 
+    branches:
+      - main
+permissions: write-all
+
+jobs:
+  publish-docs:
+    name: Publish Docs
+    runs-on: ubuntu
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
+      - run: |
+         sudo apt-get update
+         sudo apt-get install -y python3-pip
+
+      - uses: actions/setup-node@v3
+
+      - run: pip3 install -r reuirements.txt
+      - run: |
+          echo "$HOME/.local/bin" >> $GITHUB_PATH
+      - run: mkdocs gh-deploy --force
+  
