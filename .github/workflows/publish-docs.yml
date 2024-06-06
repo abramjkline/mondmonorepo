@@ -8,7 +8,7 @@ permissions: write-all
 jobs:
   publish-docs:
     name: Publish Docs
-    runs-on: ubuntu
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-python@v4
@@ -18,7 +18,7 @@ jobs:
 
       - uses: actions/setup-node@v3
 
-      - run: pip3 install -r reuirements.txt
+      - run: pip3 install -r requirements.txt
       - run: |
           echo "$HOME/.local/bin" >> $GITHUB_PATH
       - run: mkdocs gh-deploy --force
