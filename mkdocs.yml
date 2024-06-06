@@ -1,22 +1,22 @@
 # Project information
 site_name: The MondoRepo
-site_url: https://abramjkline.github.io/monodomonorepo
+site_url: https://abramjkline.github.io/mondomonorepo
 site_author: Abe Kline
 site_description: >-
   This project is a template for hosting projects and documentation.
 
 # Repository
-repo_name: abramjkline/mondmonorepo
+repo_name: abramjkline/mondomonorepo
 repo_url: https://github.com/abramjkline/mondomonorepo
 
 # Copyright
-copyright: Copyright &copy; 2024 Abram Kline
+copyright: Copyright &copy; 2024 Abe Kline
 
 # Configuration
 theme:
   name: material
   palette:
-    - scheme: default
+    - scheme: light
       primary: blue-grey
       accent: teal
       toggle:
@@ -36,7 +36,7 @@ theme:
         purple: "#c792ea"
         orange: "#f78c6c"
         cyan: "#89ddff"
-    - scheme: slate
+    - scheme: default
       primary: deep-orange
       accent: deep-orange
       toggle:
