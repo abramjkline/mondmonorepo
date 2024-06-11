@@ -6,11 +6,11 @@ site_description: >-
   This project is a template for hosting projects and documentation.
 
 # Repository
-repo_name: abramjkline/mondmonorepo
+repo_name: abramjkline/mondomonorepo
 repo_url: https://github.com/abramjkline/mondomonorepo
 
 # Copyright
-copyright: Copyright &copy; 2024 Abram Kline
+copyright: Copyright &copy; 2024 Abe Kline
 
 # Configuration
 theme:
