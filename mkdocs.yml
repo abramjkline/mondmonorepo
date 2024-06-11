@@ -1,6 +1,6 @@
 # Project information
 site_name: The MondoRepo
-site_url: https://abramjkline.github.io/monodomonorepo
+site_url: https://abramjkline.github.io/mondomonorepo
 site_author: Abe Kline
 site_description: >-
   This project is a template for hosting projects and documentation.
@@ -16,6 +16,24 @@ copyright: Copyright &copy; 2024 Abram Kline
 theme:
   name: material
   palette:
+    - scheme: slate
+      primary: deep-orange
+      accent: deep-orange
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to light mode
+      colors:
+        background: "#212121"
+        foreground: "#B0BEC5"
+        text: "#727272"
+        selection-background: "#404040"
+        accent-color: "#FF9800"
+        green: "#c3e88d"
+        yellow: "#ffcb6b"
+        blue: "#82aaff"
+        red: "#f07178"
+        purple: "#c792ea"
+        orange: "#f78c6c"
     - scheme: default
       primary: blue-grey
       accent: teal
@@ -36,29 +54,14 @@ theme:
         purple: "#c792ea"
         orange: "#f78c6c"
         cyan: "#89ddff"
-    - scheme: slate
-      primary: deep-orange
-      accent: deep-orange
-      toggle:
-        icon: material/toggle-switch-off-outline
-        name: Switch to light mode
-      colors:
-        background: "#212121"
-        foreground: "#B0BEC5"
-        text: "#727272"
-        selection-background: "#404040"
-        accent-color: "#FF9800"
-        green: "#c3e88d"
-        yellow: "#ffcb6b"
-        blue: "#82aaff"
-        red: "#f07178"
-        purple: "#c792ea"
-        orange: "#f78c6c"
 
   features:
  #   - navigation.tabs
-    - navigation.sections
-    - navigation.instant_page
+ #   - navigation.expand
+ #   - navigation.sections
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
     - toc.integrate
     - content.code.annotate
     - content.tabs.link
@@ -85,6 +88,7 @@ extra_javascript:
 plugins:
   - monorepo
   - search
+  - awesome-pages
   - glightbox:
       touchNavigation: True
       loop: False
@@ -137,4 +141,19 @@ markdown_extensions:
 # Navigation
 nav:
   - Home: index.md
-  - Projects: projects.md
+  - Coding: 
+    - Home: ./coding/index.md
+    - Utilities:
+      - GitHub Pages: ./coding/github-pages.md
+      - Playwright: ./coding/playwright.md
+      - GitHub Actions: ./coding/github-actions.md
+    - Projects:
+      - COVID-19 (SAS): ./coding/covid-19.md
+  
+  - Songwriting:
+    - Home: ./songwriting/index.md
+    - Recordings:
+      - List of Recordings: ./songwriting/recordings.md
+    - Lyrics:
+      - Eleven: ./songwriting/11.md
+ 
