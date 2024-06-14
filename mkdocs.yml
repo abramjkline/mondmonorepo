@@ -17,10 +17,10 @@ theme:
   name: material
   palette:
     - scheme: slate
-      primary: deep-orange
-      accent: deep-orange
+      primary: deep orange
+      accent: deep orange
       toggle:
-        icon: material/toggle-switch-off-outline
+        icon: material/weather-sunny
         name: Switch to light mode
       colors:
         background: "#212121"
@@ -34,26 +34,24 @@ theme:
         red: "#f07178"
         purple: "#c792ea"
         orange: "#f78c6c"
-    - scheme: default
-      primary: blue-grey
-      accent: teal
+    - scheme: amber
+      primary: deep orange
       toggle:
-        icon: material/toggle-switch
+        icon: material/weather-night
         name: Switch to dark mode
+      accent: amber
       colors:
-        background: "#263238"
-        foreground: "#B0BEC5"
-        text: "#607D8B"
-        selection-background: "#546E7A"
-        selection-foreground: "#FFFFFF"
-        accent-color: "#009688"
-        green: "#c3e88d"
-        yellow: "#ffcb6b"
-        blue: "#82aaff"
-        red: "#f07178"
-        purple: "#c792ea"
-        orange: "#f78c6c"
-        cyan: "#89ddff"
+        background: "#FFF9C4" # Light amber background
+        foreground: "#212121" # Dark grey foreground
+        text: "#424242" # Slightly lighter grey text
+        selection-background: "#FFE082" # Lighter amber selection
+        accent-color: "#FFC107" # Amber accent color
+        green: "#8BC34A" # Green
+        yellow: "#FFF176" # Light yellow
+        blue: "#2196F3" # Blue
+        red: "#FF5252" # Red
+        purple: "#9C27B0" # Purple
+        orange: "#FF9800" # Deep orange
 
   features:
  #   - navigation.tabs
