@@ -1,3 +1,3 @@
 # Coding Home
 
-This will be docs related to various code hacks that I've used.
+This section of the Mondomonorepo houses various code hacks and utilities that I've used over the years. Some pages are tutorials for existing tools, some are custom applications.

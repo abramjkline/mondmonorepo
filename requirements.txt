@@ -31,6 +31,7 @@ mkdocs-glightbox
 mkdocs-material
 mkdocs-material-extensions
 mkdocs-monorepo-plugin
+mkdocs-open-in-new-tab
 mknotebooks
 nbclient
 nbconvert
