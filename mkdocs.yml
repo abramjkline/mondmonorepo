@@ -64,6 +64,7 @@ theme:
     - content.code.annotate
     - content.tabs.link
   icon:
+    - annotation: material/arrow-right-circle 
     - admonition:
       note: fontawesome/solid/circle-info
       abstract: fontawesome/solid/circle-node
@@ -87,6 +88,7 @@ plugins:
   - monorepo
   - search
   - awesome-pages
+  - open-in-new-tab
   - glightbox:
       touchNavigation: True
       loop: False
@@ -150,8 +152,9 @@ nav:
   
   - Songwriting:
     - Home: ./songwriting/index.md
-    - Recordings:
+    - Projects:
       - List of Recordings: ./songwriting/recordings.md
     - Lyrics:
       - Eleven: ./songwriting/11.md
+      - Philosophy of the Night: ./songwriting/philosophy.md
  
