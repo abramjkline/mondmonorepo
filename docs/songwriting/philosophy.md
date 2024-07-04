@@ -36,3 +36,5 @@ Now two things are true for me,<br>
 At a very bare minimum,<br>
 I’m sure there are more to see,<br>
 Somewhere inside of my cerebrum.<br>
+
+Copyright &copy; 2024 Abram Kline
