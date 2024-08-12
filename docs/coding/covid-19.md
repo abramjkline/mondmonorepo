@@ -1,1 +1,3 @@
-# Coming Soon...
+# COVID-19 Custom Reporting
+
+During the onset of COVID, I wrote some SAS programs to generate reports of COVID levels for areas of my own personal interest. However, the program is customizable to any locale. While hopeful that I will not need to utilize this tool again, pieces may be useful for future projects. The latest version can be found in my [GitHub Repository](https://github.com/abramjkline/SAS-COVID19).

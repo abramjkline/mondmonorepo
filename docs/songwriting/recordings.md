@@ -1,4 +1,4 @@
-# Links to Original Music
+# Original Music
 
 ## Solo Project Links
 
