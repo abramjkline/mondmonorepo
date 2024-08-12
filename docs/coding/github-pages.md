@@ -111,7 +111,7 @@ For spinning up locally, you'll be using a Virtual Environment (venv). You'll ne
 
 #### Going Forward
 
-After you've run the intial setup steps above (cloning your repo, creating your venv, installing requirements) it's fairly simple to serve your project locally. You'll just need to folow these steps:
+After you've run the intial setup steps above (cloning your repo, creating your venv, installing requirements) it's fairly simple to serve your project locally. You'll just need to follow these steps:
 
 1. Navigate to your repo directory
 2. Activate your venv (.\venv\Scripts\activate.bat)

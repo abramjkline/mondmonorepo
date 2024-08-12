@@ -154,7 +154,7 @@ nav:
   - Songwriting:
     - Home: ./songwriting/index.md
     - Projects:
-      - List of Recordings: ./songwriting/recordings.md
+      - Original Music: ./songwriting/recordings.md
     - Lyrics:
       - Eleven: ./songwriting/11.md
       - Philosophy of the Night: ./songwriting/philosophy.md
